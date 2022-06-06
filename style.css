@@ -1,0 +1,50 @@
+body {
+    background-color: black;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    height: 100vh;
+}
+.emojis {
+    display: flex;
+    width: 100%;
+    font-size: 30px;
+}
+.icono{
+    display: flex;
+    
+    font-size: 30px;
+}
+.encabezado {
+    display: flex;
+    justify-content: space-between;
+    padding: 2px;
+    background-color: white;
+}
+.Post {
+    width: 450px;
+    background-color: white;
+}
+img {
+    object-fit: cover;
+    width: 450px;
+    height: 300px;
+    
+}
+.comentario {
+    margin: auto;
+}
+.bookmark{
+    margin-left: auto;
+}
+.fa-brands fa-instagram {
+    margin-right: 5px;
+    font-size: 20px;
+}
+.fa-ellipsis-vertical{
+    font-size: 30px;
+}
+.comentario{
+    text-align: justify;
+    padding: 10px
+}
